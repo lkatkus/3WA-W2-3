@@ -16,12 +16,20 @@ a{
     padding: 10px 20px 10px 20px;
 }
 
-.listBlock a{
-    padding: 0;
-}
-
 li{
     list-style-type: none;
+}
+
+.navBar ul>li{
+    display: inline-block;
+}
+
+.navList ul>li{
+    display: block;
+}
+
+.navList ul>li>a{
+    padding: 0;
 }
 
 ul{
