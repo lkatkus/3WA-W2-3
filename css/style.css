@@ -1,0 +1,113 @@
+@import url('normalize.css');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.listBlock a{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    vertical-align:middle;
+    display: inline-block;
+    color: grey;
+    font-style: italic;
+}
+
+h2{
+    color: #AFDEFA;
+}
+
+img{
+    vertical-align:middle;
+    display: inline-block;
+}
+
+.container{
+    width: 100%;
+    margin:0 auto;
+}
+
+.logoDiv{
+    text-align: center;
+}
+
+.navBar{
+    color: #2CBCD6;
+    border-bottom: 5px solid #2CBCD6;
+}
+
+.navBar ul{
+    text-align: center;
+}
+
+.navBar ul li{
+    padding: 0 20px 0 20px;
+    margin: 0;
+}
+
+.dropdown:hover{
+    background-color: #2CBCD6;
+    color: white;
+}
+
+.dropdown:hover .hidden{
+    color: white;
+    background-color: #2CBCD6;
+    display: block;
+}
+
+.hidden{
+    position: absolute;
+    left: 0;
+    background-color: navy;
+    color: white;
+    display: none;
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.navList{
+    width: 50%;
+    float: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/*LI STYLING*/
+
+.listInline li{
+    display: inline-block;
+}
+
+.listBlock li{
+    display: block;
